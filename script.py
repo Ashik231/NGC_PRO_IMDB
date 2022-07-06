@@ -1,33 +1,34 @@
 class Script(object):
     START_TXT = """Hello {},
 
-My name is <a href=https://t.me/{}>{}</a>!
+ᴍʏ ᴏꜰꜰɪᴄɪᴀʟ ɴᴀᴍᴇ ɪꜱ <a href=https://t.me/{}>{}</a>!
 
-<b>I can provide Movies. A Telegram Auto Filter Bot. Its Easy To Use Me :)
+<b>ɪ ᴄᴀɴ ɢɪᴠᴇ ʏᴏᴜ ᴍᴏᴠɪᴇꜱ ᴀɴᴅ ꜱᴇʀɪᴇꜱ,ᴀɴᴅ ɪᴀᴍ ᴏꜰꜰɪᴄɪᴀʟʟʏ ᴍᴀᴅᴇ ꜰᴏʀ ᴛʜɪꜱ ɢʀᴏᴜᴘ @newgen_cinemazzz)
 
-Just Add me to Your Group As Admin, Hit The Help Button For More Info..</b>"""
+ʏᴏᴜ ᴄᴀɴ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ, ɪᴛ'ꜱ ɴᴏᴛ ᴀ ᴘʀᴏʙʟᴇᴍ, ᴀᴅᴅ ᴍᴇ ᴀꜱ ɢʀᴏᴜᴘ ᴀᴅᴍɪɴ ᴀɴᴅ ɪ ᴡɪʟʟ ᴘʀᴏᴠɪᴅᴇ ᴍᴏᴠɪᴇꜱ...</b>"""
 
-    HELP_TXT = """Hey {}
+    HELP_TXT = """ᕼᗩI {}
 
-<b>Here Is The Help For My Commands.</b>"""
+<b>𝐻𝑒𝑟𝑒 𝑖𝑠 𝑚𝑦 𝐻𝑒𝑙𝑝 𝐶𝑜𝑚𝑚𝑎𝑛𝑑𝑠.</b>"""
 
-    ABOUT_TXT = """<b>➥ My name: {}
-➥ Creator: <a href='https://t.me/zautekm'>Zaute Km</a>
-➥ Library: <a href='https://docs.pyrogram.org/'>Pyrogram</a>
-➥ Language: Python 𝟹
-➥ Data Base: <a href='https://www.mongodb.com/'>MongoDB</a>
-➥ Bot Server: <a href='https://heroku.com'>Heroku</a>
-➥ Build Status: v2.0.1 [ Beta ]"""
+    ABOUT_TXT = """<b>➥ 𝑀𝑦 𝑁𝑎𝑚𝑒: {}
+➥ 𝑂𝑤𝑛𝑒𝑟: <a href='https://t.me/Unavailable4allTime'>𝐴𝑠ℎ𝑖𝑘 𝑀ℎ𝑑</a>
+➥ 𝐿𝑖𝑏𝑟𝑎𝑟𝑦: <a href='https://docs.pyrogram.org/'>Pyrogram</a>
+➥ 𝐿𝑎𝑛𝑔𝑢𝑎𝑔𝑒: Python 𝟹
+➥ 𝐷𝑎𝑡𝑎 𝐵𝑎𝑠𝑒: <a href='https://www.mongodb.com/'>MongoDB</a>
+➥ 𝐵𝑜𝑡 𝑆𝑒𝑟𝑣𝑒𝑟: <a href='https://heroku.com'>Heroku</a>
+➥ 𝑉𝑒𝑟𝑠𝑖𝑜𝑛: v2.0.1 [ Beta ]"""
 
-    SOURCE_TXT = """<b>Source:</b>
-IMDb is a Open source project.
-Source: <a href='https://github.com/josprojects/tgmoviebot'>GitHub - Click here 👈</a>
+    SOURCE_TXT = """<b>𝑆𝑜𝑢𝑟𝑐𝑒:</b>
+𝑁𝐺𝐶 𝐼𝑚𝑑𝑏 𝐵𝑜𝑡𝑠 𝑎𝑟𝑒 𝑇𝑟𝑢𝑒𝑙𝑦 𝐿𝑜𝑐𝑘𝑒𝑑 𝑃𝑟𝑜𝑗𝑒𝑐𝑡𝑠...
 
-<b>DEVS:</b>
-- <a href='https://t.me/josprojects'>Jos Projects</a>
+𝑆𝑜𝑢𝑟𝑐𝑒 𝐶𝑜𝑑𝑒: <a href='https://telegra.ph/file/e3f71c7bc1eddecbe41ee.jpg'>𝑆𝑜𝑢𝑟𝑐𝑒 𝐶𝑜𝑑𝑒 - 𝐶𝑙𝑖𝑐𝑘 𝐻𝑒𝑟𝑒 👈</a>
 
-<b>SUPPORT GROUP</b>
-- <a href='https://t.me/+y53tWFUw6Q43NzE9'>Jos Movie Club</a>"""
+<b>𝑶𝒘𝒏𝒆𝒓:</b>
+- <a href='https://t.me/Unavailable4allTime'>𝐴𝑠ℎ𝑖𝑘 𝑀ℎ𝑑</a>
+
+<b>𝑀𝑎𝑖𝑛 𝐺𝑟𝑜𝑢𝑝</b>
+- <a href='https://t.me/newgen_cinemazzz'>𝙉𝙀𝙒𝙂𝙀𝙉 𝘾𝙄𝙉𝙀𝙈𝘼𝙕𝙕𝙕™</a>"""
 
     MANUALFILTER_TXT = """Help: <b>Filters</b>
 
@@ -249,11 +250,11 @@ This module only works for my admins
 <b>Used Storage:</b> <code>{}</code> MiB
 <b>Free Storage:</b> <code>{}</code> MiB"""
 
-    FORCESUB_TXT = """**♦️ READ THIS INSTRUCTION ♦️**
+    FORCESUB_TXT = """**▷𝑅𝑒𝑎𝑑 𝑇ℎ𝑖𝑠 𝑀𝑒𝑠𝑠𝑎𝑔𝑒◁**
 
-__🗣 In Order To Get The Movie Requested By You in Our Groups, You Will Have To Join Our Official Channel First. After That, Try Accessing That Movie Again From Our Group. I'll Send You That Movie Privately 🙈__
+__🗣 താങ്കൾ ഗ്രൂപ്പിൽ നിന്ന്‌ തിരഞ്ഞെടുത്ത മൂവി താങ്കൾക്ക് ലഭിക്കണമെങ്കിൽ താഴെ കൊടുത്തിരിക്കുന്ന ചാനലിൽ ജോയിൻ ആകുക😊,ശേഷം Start ഞെക്കുക,മുതലാളിയുടെ കല്പനകൾ😹__
 
-**👇 JOIN THIS CHANNEL & TRY AGAIN 👇**"""
+**⇩𝐽𝑜𝑖𝑛 𝑇ℎ𝑖𝑠 𝐶ℎ𝑎𝑛𝑛𝑒𝑙 𝑎𝑛𝑑 𝑇𝑟𝑦 𝐴𝑔𝑎𝑖𝑛⇩**"""
 
     MEMES_TXT = """Help: <b>Memes</b>
 
