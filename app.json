@@ -1,6 +1,6 @@
 {
     "name": "NGC_PRO_IMDB",
-    "description": "ഒന്നും ഇല്ല, വർക്ക് ആയാൽ തന്നെ മഹാ കാര്യം",
+    "description": "ഒന്നും ഇല്ല, വർക്ക് ആയാൽ തന്നെ മഹാ കാര്യം😹",
     "stack": "container",
     "keywords": [
       "telegram",
@@ -31,7 +31,7 @@
             "required": true
         },
         "CHANNELS": {
-            "description": "Username or ID of channel or group. Separate multiple IDs by space.",
+            "description": "Userperu or ID of channel or group. Separate multiple IDs by space.",
             "required": false
         },
         "ADMINS": {
