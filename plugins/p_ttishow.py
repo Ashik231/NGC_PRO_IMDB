@@ -37,19 +37,19 @@ async def save_group(bot, message):
             await bot.leave_chat(message.chat.id)
             return
         buttons = [[
-            InlineKeyboardButton('ℹ️ Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
-            InlineKeyboardButton('Updates 📢', url='https://t.me/josprojects/221')
+            InlineKeyboardButton('✆𝐻𝑒𝑙𝑝✆', url=f"https://t.me/{temp.U_NAME}?start=help"),
+            InlineKeyboardButton('𝑂𝑤𝑛𝑒𝑟 📢', url='https://t.me/Unavailable4allTime')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
-            text=f"<b>Thankyou For Adding Me In {message.chat.title} ❣️\n\nIf you have any questions & doubts about using me contact support.</b>",
+            text=f"<b>Thankyou For Adding Me In {message.chat.title} ❣️\n\nIf you have any questions & doubts about using me contact Owner.</b>",
             reply_markup=reply_markup)
     else:
         settings = await get_settings(message.chat.id)
         if settings["welcome"]:
             for u in message.new_chat_members:
                 buttons = [[
-                InlineKeyboardButton('👉 ⚠️ Press me... 🥰 👈', url="https://t.me/josprojects")
+                InlineKeyboardButton('⇘മുതലാളി⇙', url="https://t.me/Unavailable4allTime")
             ]]
                 if (temp.MELCOW).get('welcome') is not None:
                     try:
@@ -57,7 +57,7 @@ async def save_group(bot, message):
                     except:
                         pass
                 temp.MELCOW['welcome'] = await message.reply_text(
-                text=f"<b>👋 Hi! {u.mention},</b> Welcome to <b>{message.chat.title}</b>\n\n<b>👇 Official Projects Channels 👇</b>",
+                text=f"<b>👋 ഹായ്! {u.mention},</b> 𝑊𝑒𝑙𝑐𝑜𝑚𝑒 𝑇𝑜 <b>{message.chat.title}</b>\n\n<b>അങ്ങനെ അവസാനം നിങ്ങൾ എത്തേണ്ട സ്ഥലത്തു തന്നെയാണ് എത്തിയിരിക്കുന്നത്😻,ഇവിടെ നിങ്ങൾക്ക് വേണ്ട എല്ലാ സിനിമയും ലഭിക്കും,അങ്ങനെ കിട്ടുന്നിലെങ്കിൽ താഴെ മുതലാളിയെ mention ചെയ്തിട്ടുണ്ട്,ചോദിച്ചാൽ മതി കിട്ടും😼</b>",
                 disable_web_page_preview = True,
                 reply_markup=InlineKeyboardMarkup(buttons))
 
@@ -176,7 +176,7 @@ async def gen_invite(bot, message):
 
 @Client.on_message(filters.command('ban_user') & filters.user(ADMINS))
 async def ban_a_user(bot, message):
-    # https://t.me/Josprojects/
+    # https://t.me/Unavailable4allTime/
     if len(message.command) == 1:
         return await message.reply('Give me a user id / username')
     r = message.text.split(None)
@@ -243,7 +243,7 @@ async def unban_a_user(bot, message):
     
 @Client.on_message(filters.command('users') & filters.user(ADMINS))
 async def list_users(bot, message):
-    # https://t.me/Josprojects/
+    # https://t.me/Unavailable4allTime/
     raju = await message.reply('Getting List Of Users')
     users = await db.get_all_users()
     out = "Users Saved In DB Are:\n\n"
