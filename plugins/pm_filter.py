@@ -153,7 +153,7 @@ async def advantage_spoll_choker(bot, query):
             k = (movie, files, offset, total_results)
             await auto_filter(bot, query, k)
         else:
-            k = await query.message.edit('This Movie Not Found In DataBase')
+            k = await query.message.edit('ഈ മൂവി എന്റെ ഡാറ്റാബേസിൽ ഇല്ല🙀,@Unavailable4allTime Contact Him...')
             await asyncio.sleep(10)
             await k.delete()
 
@@ -462,8 +462,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('⎰𝑆𝑒𝑎𝑟𝑐ℎ 𝑀𝑜𝑣𝑖𝑒𝑠⎱', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('𝑂𝑤𝑛𝑒𝑟', url='https://t.me/josprojects'),
-            InlineKeyboardButton('☞𝑁𝑒𝑤 𝑀𝑜𝑣𝑖𝑒𝑠', url='https://t.me/+y53tWFUw6Q43NzE9')
+            InlineKeyboardButton('𝑂𝑤𝑛𝑒𝑟', url='https://t.me/Unavailable4allTime'),
+            InlineKeyboardButton('☞𝑁𝑒𝑤 𝑀𝑜𝑣𝑖𝑒𝑠', url='https://t.me/Team_NGC')
             ],[
             InlineKeyboardButton('⋉𝐶𝑙𝑜𝑠𝑒 𝑇ℎ𝑒 𝑀𝑒𝑛𝑢⋊', callback_data='close_data')
         ]]
