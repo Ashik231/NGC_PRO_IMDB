@@ -31,7 +31,7 @@
             "required": true
         },
         "CHANNELS": {
-            "description": "Userperu or ID of channel or group. Separate multiple IDs by space.",
+            "description": "Username or ID of channel or group. Separate multiple IDs by space.",
             "required": false
         },
         "ADMINS": {
